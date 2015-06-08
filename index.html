@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="icon" type="image/png" href="http://cdn.history.com/sites/4/2013/07/Alex-Trebek_136212038.jpg">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<script type="text/javascript">var switchTo5x=true;</script>
+	<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+	<script type="text/javascript" src="http://s.sharethis.com/loader.js"></script>
+	  <link rel="stylesheet" href="animate.css">
+	<title>TorontoPardy</title>
+</head>
+<body>
+
+<div class="overlay">
+	<h2 class="over">How to play Torontopardy</h2>
+	<ol>
+		<li>If you want to be lame and follow the rules, here's what you do: Read the card. Think of an answer. Click on the card to reveal the answer. Click the check mark if you got it right or the x if you got it wrong. </li>
+		<li>Torontopardy is an honour system. If you want to make yourself feel better and bump up your numbers by clicking the checkmark until your finger falls off, who am I to stop you? Go ahead, lie to yourself. I won't judge you out loud.</li>
+		<li>Tell your friends. A lot of hard work and hearty laughs went into making this game. Share it. Or don't. It's cool. Not like I'll be crying myself to sleep over it. </li>
+		<img src="trebek.png" height="310" width="242" alt="" class="alex animated bounceInLeft">
+	</ol>
+		<button class="close">Yeah, whatever, let's play.</button>
+</div>
+
+
+<div class="side clearfix">
+<h1>Jeopardy Toronto Edition</h1>
+
+<div class="total" value="0">$0</div>
+
+<div class="message"></div>
+
+<h2>Write your name below <p>(using your mouse or finger)</p></h2>
+<img src="http://www.jeopardy.com/minisites/mustache/img/alex-head-2.png" alt="alex trebek floating head" class="trebek animated infinite tada">
+<canvas id="simple_sketch" width="300" height="150"></canvas>
+
+
+</div>
+
+<div class="newGrid">
+
+<section class="grid clearfix">
+
+
+
+
+<!-- <div class="refresh">Addicted? Fine. Click this to get a new set.</div> -->
+</section>
+
+
+</div>
+
+</body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="app.js"></script>
+	<script src="sketch.js"></script>
+	<script type="text/javascript">
+ 	 $(function() {
+   	 $('#simple_sketch').sketch({defaultColor: "#fff"});
+  		});
+	</script>
+	<script type="text/javascript">stLight.options({publisher: "bc6e2bd6-c3d1-41c1-bbbf-bcde836e732d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+<script>
+var options={ "publisher": "bc6e2bd6-c3d1-41c1-bbbf-bcde836e732d", "position": "left", "ad": { "visible": false, "openDelay": 5, "closeDelay": 0}, "chicklets": { "items": ["facebook", "twitter", "sharethis", "email"]}};
+var st_hover_widget = new sharethis.widgets.hoverbuttons(options);
+</script>
+
+
+</html>
